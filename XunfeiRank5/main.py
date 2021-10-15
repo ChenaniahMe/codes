@@ -193,8 +193,8 @@ for f1 in tqdm(['outdoorTemp_200_bin', 'outdoorHum_200_bin', 'outdoorAtmo_200_bi
 
 
 def single_model(clf, train_x, train_y, test_x, clf_name, class_num=1):
-    train = np.zeros((train_x.shape[0], class_num))
-    test = np.zeros((test_x.shape[0], class_num))
+    #train = np.zeros((train_x.shape[0], class_num))
+    #test = np.zeros((test_x.shape[0], class_num))
 
     nums = int(train_x.shape[0] * 0.80)
 

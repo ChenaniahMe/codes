@@ -1,0 +1,7 @@
+opus-mt-zh-vi: 汉语->越语
+opus-mt-zh-en: 汉语->英语
+opus-mt-en-ja: 英语->日语
+opus-mt-ja-en: 日语->英语
+opus-mt-ko-en: 朝鲜语->英语
+opus-mt-ru-en: 俄语->汉语
+opus-mt-ja-de: 日语->德语

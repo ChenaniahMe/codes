@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 14 15:47:36 2020
-
-@author: Chenaniah
-"""
 from PIL import Image
 import numpy as np
 
 class ColorCheck(object):
-    def __init__(self, numbers):
+    def __init__(self, numbers,height):
         '''initialize parameters
         Parameters:
             numbers: the number of check
@@ -19,7 +13,7 @@ class ColorCheck(object):
         '''
         self.numbers = numbers
         self.check_width = 25
-        self.img_height = 250
+        self.img_height = 25*height
         self.img_width = self.check_width * self.numbers
 
     def get_corlor_image(self):
@@ -27,12 +21,14 @@ class ColorCheck(object):
         matrix = np.array(img)
         for i in range(0, self.img_height, self.check_width):
             for j in range(0, self.img_width, self.check_width):
-                matrix[i:i+25, j:j + 25] = np.random.uniform(0, 255, 3)
+                #for this where, we can change color
+                matrix[i+1:i+25, j:j + 25-1] = np.random.uniform(190, 255, 3)
         img_result = Image.fromarray(matrix)
         return img_result
 
 if __name__ == "__main__":
-    color_bar = ColorCheck(4)
+    width = 8
+    height = 1
+    color_bar = ColorCheck(width,height)
     img_result = color_bar.get_corlor_image()
-    img_result.save("random_color_check.png")
-    # img_result.show()
+    img_result.save("mainb.png")

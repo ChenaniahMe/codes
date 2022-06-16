@@ -1,5 +1,5 @@
 #### torchv
-这个主要使用了torch对于gat进行了复现，CUDA 9.0
+这个主要使用了torch对于gat进行了复现，CUDA 9.0, 对应结果有点问题，一般就跑tensorflow的源码就ok了
 
 #### tensorflowv
-原有的tensorflow 代码
+原有的tensorflow 代码, tensorflow的cuda版本不能用，注意后期修复

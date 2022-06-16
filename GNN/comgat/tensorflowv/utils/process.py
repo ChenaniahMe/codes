@@ -107,7 +107,7 @@ def load_data(dataset_str): # {'pubmed', 'citeseer', 'cora'}
     train_mask = sample_mask(idx_train, labels.shape[0])
     val_mask = sample_mask(idx_val, labels.shape[0])
     test_mask = sample_mask(idx_test, labels.shape[0])
-    modify_data = True
+    modify_data = False
     if modify_data:
         train_mask[:] = 0
         val_mask[:] = 0

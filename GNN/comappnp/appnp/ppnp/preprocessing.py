@@ -19,6 +19,7 @@ def exclude_idx(idx: np.ndarray, idx_exclude_list: List[np.ndarray]) -> np.ndarr
 def known_unknown_split(
         idx: np.ndarray, nknown: int = 1500, seed: int = 4143496719) -> Tuple[np.ndarray, np.ndarray]:
     rnd_state = np.random.RandomState(seed)
+    #nknown = 1500 跑pubmed数据集时，修改这里
     known_idx = rnd_state.choice(idx, nknown, replace=False)
     unknown_idx = exclude_idx(idx, [known_idx])
     return known_idx, unknown_idx

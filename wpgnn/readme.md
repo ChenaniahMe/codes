@@ -5,7 +5,7 @@ We open source core implementations for the proposed method.
 
 #### Graph Fusion
 
-The calculation of the graph fusion is under the ffusion floder. In  this code, the computational details for $\tilde{\mathbf{A}}$, $A$,
+The calculation of the graph fusion is under the ffusion floder. In  this code, the computational details for $\tilde{\mathbf{A}}$, $\bf{A}$,
 
 ##### Usage of the code
 ```bash

@@ -4,7 +4,8 @@
 We open source core implementations for the proposed method. 
 
 #### Graph Fusion
-The calculation of the graph fusion is under the ffusion floder.
+The calculation of the graph fusion is under the ffusion floder. In  this code, the computational details for $\tilde{\mathbf{A}}$, $\Delta$, ${\bf{A}}^{\rm{bias}}$, ${\bf{A}}^{\rm{fuzzy}}$, ${\bf{A}}^{\rm{enhance}}$ and ${\bf{A}}^{\rm{diff}}$ are described. 
+
 ##### Usage of the code
 ```bash
 python main.py

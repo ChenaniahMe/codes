@@ -128,7 +128,7 @@ Highest Valid: 82.08 ± 0.11
 #### Experiments 
 We visualize the node embeddings representation of the last hidden layer on the Citeseer datasets by our WPGNN and five state-of-the arts: GCN, SGCN, GAT, GraphSage and APPNP. It has been demonstrated that the WPGNN is effective. The more visualizations of learned embeddings are shown in the Appendix.
 
-<img src="./tsen.png" width="60%">
+<img src="./tsen.png" width="35%">
 
 ### The code of baselines
 The code of the baseline algorithm  is as follows:

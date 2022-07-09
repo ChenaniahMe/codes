@@ -1,7 +1,7 @@
 ## WPGNN
 
 ### The code of the proposed method WPGNN
-We open source core implementations for the proposed method. 
+We open source core implementations for the proposed method, including graph fusion, weight-perceputal convolution and the usage of the code.
 
 #### Graph Fusion
 
@@ -63,7 +63,7 @@ def featureswq(features, weights,queues):
     return torch.cat(nfeatures,axis=-1)
 ```
 
-##### Usage of the code
+#### Usage of the code
 ```bash
 python -u main.py --dataset Cora --hidden_channels 90 --block_num 8 > ch90b8.txt --extend_dim 16
 ```

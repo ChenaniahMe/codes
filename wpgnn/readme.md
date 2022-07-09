@@ -1,7 +1,7 @@
 ## WPGNN
 
 ### The code of the proposed method WPGNN
-We open source core implementations for the proposed method, including graph fusion, weight-perceputal convolution, usage of the code and Experiments.
+We open source core implementations for the proposed method, including graph fusion, weight-perceputal convolution, usage of the code and experiments.
 
 #### Graph Fusion
 

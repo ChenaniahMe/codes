@@ -149,13 +149,8 @@ The code of the baseline algorithm  is as follows:
 ### Requirements
 Our implementation works with
 CUDA 9.0
-
 torch=1.8.1
-
 torch-geometric=2.0.2
-
 torch-scatter=2.0.6
-
 torch-sparse=0.6.10
-
 numpy==1.19.5

@@ -135,23 +135,16 @@ We visualize the node embeddings representation of the last hidden layer on the 
 ### The code of baselines
 The code of the baseline algorithm  is as follows:
 
-#### APPNP
->https://github.com/ChenaniahMe/codes/tree/main/GNN/comappnp/appnp
 
-#### ElasticGNN
->https://github.com/ChenaniahMe/codes/tree/main/GNN/comelasticgnn/ElasticGNNb
+| Method | Code |
+|--|--|
+| APPNP | https://github.com/ChenaniahMe/codes/tree/main/GNN/comappnp/appnp |
+| ElasticGNN | https://github.com/ChenaniahMe/codes/tree/main/GNN/comelasticgnn/ElasticGNNb |
+| GAT | https://github.com/ChenaniahMe/codes/tree/main/GNN/comgat |
+| GCN | https://github.com/ChenaniahMe/codes/tree/main/GNN/comgcn |
+| GraphSage | https://github.com/ChenaniahMe/codes/tree/main/GNN/comgraphsage |
+| SGCN | https://github.com/ChenaMe/codes/tree/main/GNN/comsgcn |
 
-#### GAT
->https://github.com/ChenaniahMe/codes/tree/main/GNN/comgat
-
-#### GCN
->https://github.com/ChenaniahMe/codes/tree/main/GNN/comgcn
-
-#### GraphSage
->https://github.com/ChenaniahMe/codes/tree/main/GNN/comgraphsage
-
-#### SGCN
->https://github.com/ChenaMe/codes/tree/main/GNN/comsgcn
 
 ### Requirements
 Our implementation works with

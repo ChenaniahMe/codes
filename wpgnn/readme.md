@@ -5,7 +5,7 @@ We open source core implementations for the proposed method, including graph fus
 
 #### Graph Fusion
 
-The calculation of the graph fusion is under the ffusion floder. In  this code, ${\tilde{\mathbf{A}}}, \Delta, {\bf{A}}^{\rm{bias}}, {\bf{A}}^{\rm{fuzzy}}, {\bf{A}}^{\rm{enhance}} and {\bf{A}}^{\rm{diff}}$ are described as follows.
+The calculation of the graph fusion is under the ffusion floder. In  this code, ${\tilde{\mathbf{A}}}, \Delta, {\bf{A}}^{\rm{bias}}, {\bf{A}}^{\rm{fuzzy}}, {\bf{A}}^{\rm{enhance}}$ and ${\bf{A}}^{\rm{diff}}$ are described as follows.
 
 ##### Usage of the code
 ```bash

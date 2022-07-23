@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T08:32:21.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="knzryNnEAexc7VkovlJU" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T09:00:52.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="akLWTlmL25QUfU43XkZN" version="20.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="771" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,16 +8,60 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="序列信学习" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="110" y="330" width="120" height="40" as="geometry" />
+          <mxGeometry x="110" y="316" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SsMaSS-ixUV3Psy7raRa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SsMaSS-ixUV3Psy7raRa-0" target="SsMaSS-ixUV3Psy7raRa-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SsMaSS-ixUV3Psy7raRa-0" value="CRF层训练概率转移矩阵" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="330" width="120" height="40" as="geometry" />
+          <mxGeometry x="290" y="316" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SsMaSS-ixUV3Psy7raRa-1" value="通过Verterbi算法找最优解" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="330" width="120" height="40" as="geometry" />
+          <mxGeometry x="470" y="316" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SsMaSS-ixUV3Psy7raRa-4" target="SsMaSS-ixUV3Psy7raRa-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="540" />
+              <mxPoint x="380" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-4" value="随机场（RF）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-5" value="马尔可夫随机场" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-6" value="&lt;span style=&quot;text-align: left;&quot;&gt;吉布斯随机场 (GRF)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-7" value="&lt;span style=&quot;text-align: left;&quot;&gt;条件随机场 (CRF)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-8" value="一些已有的随机场如：马尔可夫随机场(MRF), 吉布斯随机场 (GRF), 条件随机场 (CRF), 和高斯随机场。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="810" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;高斯随机场&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="SsMaSS-ixUV3Psy7raRa-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="540" as="sourcePoint" />
+            <mxPoint x="390.01694915254234" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="SsMaSS-ixUV3Psy7raRa-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="540" as="sourcePoint" />
+            <mxPoint x="390.0344827586207" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

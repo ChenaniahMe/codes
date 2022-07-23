@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T09:18:29.599Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PulJwlecKkZUtbBaYnGO" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T09:19:21.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZDpOKQ7IaDyisbP_Fa5S" version="20.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="951" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="SsMaSS-ixUV3Psy7raRa-8" value="一些已有的随机场如：马尔可夫随机场(MRF), 吉布斯随机场 (GRF), 条件随机场 (CRF), 和高斯随机场。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="134" y="810" width="560" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SsMaSS-ixUV3Psy7raRa-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;高斯随机场&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="SsMaSS-ixUV3Psy7raRa-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;高斯随机场（GRF）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SsMaSS-ixUV3Psy7raRa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="SsMaSS-ixUV3Psy7raRa-5">

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T13:48:10.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pOcFx7CByqq8082NUdR1" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T13:48:38.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pEq4OCfdKdINxcFkCK5y" version="20.2.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1072" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1429,13 +1429,13 @@
             <mxPoint x="481" y="1819" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZRQhrtmV5pLrXouPH-u-40" value="&lt;p id=&quot;id-o3UyfuSmOv&quot; class=&quot;ql-line&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;过滤出现频次较少的标题和明显不规范的品牌词&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;不规范品牌词，例如&quot;2x lb&quot;，&quot;32525&quot;等&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="552" y="1880" width="196" height="80" as="geometry" />
+        <mxCell id="MZRQhrtmV5pLrXouPH-u-40" value="&lt;p id=&quot;id-o3UyfuSmOv&quot; class=&quot;ql-line&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;联合搜索表，给出品牌词对应的搜索次数，搜索次数选择时间结点为一个月&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="551" y="1880" width="196" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MZRQhrtmV5pLrXouPH-u-41" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="MZRQhrtmV5pLrXouPH-u-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="337.9119999999996" y="2242.14" as="targetPoint" />
-            <mxPoint x="481" y="1920" as="sourcePoint" />
+            <mxPoint x="336.9119999999996" y="2242.14" as="targetPoint" />
+            <mxPoint x="480" y="1920" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>

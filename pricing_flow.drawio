@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T09:23:45.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SL9BRVVdd1aPyxHpUq1q" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T09:51:28.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bDDY01iGwIeLinAPDRZ8" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="2377" dy="2546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -872,6 +872,9 @@
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-334" value="弹性计算" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1720" y="2480" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1O9Revn7S_Qjva8WgIn-335" value="1. 回归系数，results.params[0]，results.params[1]&lt;br&gt;2. 回归系数标准差results.bse&lt;br&gt;3. 回归系数系数p值&lt;br&gt;4.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1911" y="2470" width="319" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

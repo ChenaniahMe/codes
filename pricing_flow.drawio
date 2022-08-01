@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T08:27:16.281Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Rh6KCYytIUOfXZlPG4R4" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T08:43:47.211Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gPud_bGzcSLl1nROCgGf" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="2593" dy="2671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="2546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -706,6 +706,9 @@
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-249" value="基于模型的价格弹性计算（&lt;span style=&quot;color: rgb(36, 41, 46); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;smart_pricing_ec_model&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1065" y="1970" width="1630" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="k1O9Revn7S_Qjva8WgIn-250" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2055" width="1660" height="960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

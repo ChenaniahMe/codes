@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T03:41:36.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="s_K_VzcmAPdFXqVKzlyB" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T03:53:48.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ANTje_A4yOVXDfuxuSc4" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="949" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,19 +95,19 @@
           <mxGeometry x="700" y="310" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-3" value="订单明细表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="900" y="160" width="120" height="50" as="geometry" />
+          <mxGeometry x="900" y="275" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k1O9Revn7S_Qjva8WgIn-4" value="TABLE_SKU_INFO（cdm.cdm_l01_ord_jdr_det_info）&lt;br&gt;字段信息：" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="47.5" width="200" height="105" as="geometry" />
+        <mxCell id="k1O9Revn7S_Qjva8WgIn-4" value="TABLE_SKU_INFO（cdm.cdm_l01_ord_jdr_det_info）&lt;br&gt;字段信息：sku_id,&amp;nbsp;taxed_cost(税后成本),&amp;nbsp;category(品类),&amp;nbsp;service_type(服务类别),&amp;nbsp; product_name(商品名称),&amp;nbsp;business_cat1(业务分类一),&lt;br&gt;business_cat2(业务分类二),&amp;nbsp;business_cat3(业务分类三),business_order_type(业务订单类型),&amp;nbsp;jd_price(京东价),purchase_price(采购价)，dp=&#39;ACTIVE&#39;(拉链表, active表示最新覆盖数据)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="32.5" width="410" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-5" value="基础信息表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="900" y="75" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-6" value="日期特征表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="900" y="250" width="120" height="50" as="geometry" />
+          <mxGeometry x="900" y="390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-7" value="日期特征表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="900" y="360" width="120" height="50" as="geometry" />
+          <mxGeometry x="900" y="470" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-8" value="输出redis结果表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1080" y="490" width="120" height="50" as="geometry" />

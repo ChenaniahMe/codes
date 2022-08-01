@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T03:40:35.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-XBaXqRIYSHTpJ7tiqkd" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T03:41:36.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="s_K_VzcmAPdFXqVKzlyB" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="949" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,8 +97,8 @@
         <mxCell id="k1O9Revn7S_Qjva8WgIn-3" value="订单明细表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="900" y="160" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="k1O9Revn7S_Qjva8WgIn-4" value="cdm.cdm_l01_ord_jdr_det_info&lt;br&gt;字段信息：" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="47.5" width="180" height="105" as="geometry" />
+        <mxCell id="k1O9Revn7S_Qjva8WgIn-4" value="TABLE_SKU_INFO（cdm.cdm_l01_ord_jdr_det_info）&lt;br&gt;字段信息：" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="47.5" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-5" value="基础信息表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="900" y="75" width="120" height="50" as="geometry" />
@@ -110,7 +110,7 @@
           <mxGeometry x="900" y="360" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-8" value="输出redis结果表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="900" y="500" width="120" height="50" as="geometry" />
+          <mxGeometry x="1080" y="490" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T13:02:19.172Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="orV1O8fVm-RFcfyPUbS-" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T13:03:23.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0Ddi9AAGhG8nd8vjDQUR" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="1623" dy="2252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -964,7 +964,7 @@
           <mxGeometry y="270" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-31" value="TABLE_SMART_PRICING_EC_MODEL&#xa;(dev.dev_mtg_smart_pricing_ec_model）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;align=left;gradientColor=none;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="1158" y="3570" width="300" height="690" as="geometry">
+          <mxGeometry x="1072" y="3570" width="300" height="390" as="geometry">
             <mxRectangle x="1260" y="400" width="330" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -995,44 +995,14 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-40" value="ecstd(价格弹性标准差)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
           <mxGeometry y="270" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-41" value="r2(决定系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-52" value="intercept(截距)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
           <mxGeometry y="300" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-42" value="tvalue(t值)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-53" value="samples_num(样本量)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
           <mxGeometry y="330" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-43" value="loguv_coef(流量对数特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-54" value="samples_num(样本量)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
           <mxGeometry y="360" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-44" value="holiday_0_coef(节日特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="390" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-45" value="holiday_1_coef(节日特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="420" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-46" value="holiday_2_coef(节日特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="450" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-47" value="holiday_3_coef(节日特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="480" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-48" value="big_promo_0_coef(大促特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="510" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-49" value="big_promo_1_coef(大促特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="540" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-50" value="big_promo_2_coef(大促特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="570" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-51" value="holiday_or_big_coef(是否是大促和节假日特征的系数)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="600" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-52" value="intercept(截距)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="630" width="300" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-53" value="samples_num(样本量)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-31">
-          <mxGeometry y="660" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

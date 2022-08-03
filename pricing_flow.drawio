@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T14:20:18.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YN9i3halwARrxmMXGEUT" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T14:21:20.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HQxpYmRefCw6gw3ujpO0" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="1640" dy="2464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1052,10 +1052,10 @@
           <mxGeometry y="420" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-92" value="常量限制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="3180" width="150" height="60" as="geometry" />
+          <mxGeometry x="1580" y="3190" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-93" value="1. 固定的GATEGORY_LIST=[&#39;家电清洗&#39;, ‘生活洗衣’, &#39;家电品类&#39;]&lt;br&gt;2. 统一指定的区域名 ‘全国’&lt;br&gt;3. 弹性上限 EC_HIGH=0, 弹性下限EC_LOW=-10&lt;br&gt;4. 样本下限SAMPLES_LOW=25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="3170" width="430" height="114" as="geometry" />
+          <mxGeometry x="1780" y="3170" width="430" height="114" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-93" target="7uFY8SN5ur5jXq0y15jG-93">
           <mxGeometry relative="1" as="geometry" />
@@ -1082,9 +1082,9 @@
           <mxGeometry x="1830" y="3760" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-105" value="&lt;div&gt;&#39;sku_id&#39;, &#39;product_name&#39;, &#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;, &#39;business_cat3&#39;,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;area_name&#39;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="3890" width="430" height="114" as="geometry" />
+          <mxGeometry x="1756" y="3860" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-106" value="去重操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-106" value="去重操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="2032" y="3480" width="70" height="60" as="geometry" />
         </mxCell>
       </root>

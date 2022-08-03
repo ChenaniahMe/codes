@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T08:45:21.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MEBhMBK-0sAzKyC-KbHH" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T08:47:24.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MkBYRO-JwmMvvBYVLOQN" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1065" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1639,6 +1639,12 @@
         </mxCell>
         <mxCell id="bC2qLL3UqBp_KD1YdCYb-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;对于含有标签的字用0表示lable, 有两个0，表示这个样本由两个字组成，假定最多有4个字组成。&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="2770" width="212" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bC2qLL3UqBp_KD1YdCYb-19" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;CRF&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="816" y="2880" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bC2qLL3UqBp_KD1YdCYb-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CRF的输入有原始Y输入，&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="2840" width="212" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

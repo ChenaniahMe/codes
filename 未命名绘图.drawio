@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T08:55:03.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="unnyO7wfWI1aQN99K7L4" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T08:56:53.756Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NM3fGnTDjfKSA1KsehI9" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1398" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1863" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1640,7 +1640,7 @@
         <mxCell id="bC2qLL3UqBp_KD1YdCYb-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;对于含有标签的字用0表示lable, 有两个0，表示这个样本由两个字组成，假定最多有4个字组成。&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="2770" width="212" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bC2qLL3UqBp_KD1YdCYb-19" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;CRF(Dense)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="bC2qLL3UqBp_KD1YdCYb-19" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;CRF&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="816" y="2880" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bC2qLL3UqBp_KD1YdCYb-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;CRF的输入有原始y_true [128, 4, 4] ; Dense得到的y_pre[128,4,4], Dense的结果y_pre和y_true会传给CRF&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1652,8 +1652,11 @@
         <mxCell id="bC2qLL3UqBp_KD1YdCYb-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;对Y进行类别one-hot编码 keras对应&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Helvetica Neue&amp;quot;; font-size: 13px; background-color: initial;&quot;&gt;to_categorical函数，得到[128,4,4]&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;arcSize=3;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="657" y="2630" width="223" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bC2qLL3UqBp_KD1YdCYb-23" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;CRF&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="bC2qLL3UqBp_KD1YdCYb-23" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;y_ture&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="816" y="3000" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bC2qLL3UqBp_KD1YdCYb-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;y_pre&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="3000" width="125" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T13:20:30.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8yUlORcEPYECIe1Aw9Dj" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T13:22:43.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HVI5UHJRv2MifsH02Kzb" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="1854" dy="2406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
           <mxGeometry y="360" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-55" value="TABLE_SMART_PRICING_EC_MODEL_COVER&#xa;(dev.dev_mtg_smart_pricing_ec_cover）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;align=left;gradientColor=none;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="3200" width="300" height="360" as="geometry">
+          <mxGeometry x="2360" y="3200" width="300" height="390" as="geometry">
             <mxRectangle x="1260" y="400" width="330" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1027,20 +1027,23 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-87" value="business_cat3(业务分类三)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-81" value="()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-81" value="area_name(区域名称)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
           <mxGeometry y="210" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-82" value="()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-82" value="ec(价格弹性)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
           <mxGeometry y="240" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-83" value="()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-83" value="ecstd(价格弹性标准差)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
           <mxGeometry y="270" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-84" value="()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-84" value="ec_type(弹性类型：SKU自身弹性、品类弹性-二级品类&#xa;，品类弹性-一级品类)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
           <mxGeometry y="300" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-85" value="()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-85" value="cat1_ec(所在一级品类价格弹性)" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
           <mxGeometry y="330" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-88" value="()" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-55">
+          <mxGeometry y="360" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

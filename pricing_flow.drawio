@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T13:44:39.566Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UYT46buG_eAzz4xUzWWB" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T13:47:27.374Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KpannbvVS1uPhGEY1RXc" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="902" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1070,10 +1070,10 @@
           <mxGeometry x="1640" y="3640" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-98" value="skus_ec = skus_ec[skus_ec[&#39;samples_num&#39;] &amp;gt;= SAMPLES_lOW]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="3530" width="430" height="50" as="geometry" />
+          <mxGeometry x="1840" y="3535" width="430" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-99" value="skus_ec = skus_ec[(skus_ec[&#39;ec&#39;]&amp;lt;EC_HIGH) &amp;amp; (skus_ec[&#39;ec&#39;]&amp;gt;EC_LOW)]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1839" y="3640" width="430" height="50" as="geometry" />
+          <mxGeometry x="1839" y="3647" width="430" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

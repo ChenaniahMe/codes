@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T12:17:53.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7z0o1r-l5sUqN6TVhf46" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T12:19:26.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BxewoxjGzfMWGHCqreij" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="1002" dy="1960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1337,28 +1337,28 @@
           <mxGeometry x="1822.5" y="4490" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-195" value="基于特征数据按照窗口期进行拆分" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1458" y="4630" width="150" height="60" as="geometry" />
+          <mxGeometry x="1470" y="4603" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-198" value="周期是传入参数数据&lt;br&gt;1. 近期周期日期开始（当前日期-传入的周期参数天）-近期周期日期结束（当前日期-1天）&lt;br&gt;2. 近一年前日期的下一周期开始日期（一年前日期+1天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期+传入的周期参数天）&lt;br&gt;3. 近一年前日期的近期周期开始日期（一年前日期-传入的周期参数天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期-天）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1681" y="4576" width="430" height="114" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-199" value="计算环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1893" y="4767" width="150" height="60" as="geometry" />
+          <mxGeometry x="1893" y="4720" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-200" value="func.col(&#39;sale_qtty_sum_1yearago_after&#39;) / func.col(&#39;sale_qtty_sum_1yearago_before&#39;) #（对应一年前日期的下一周期开始日期，结束）/（一年前日期的近期周期开始日期，结束）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1370" y="4740" width="430" height="114" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-201" value="关联一年前日期的近期周期和一年前日期的下一周期，求交集" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="4755" width="150" height="60" as="geometry" />
+          <mxGeometry x="2140" y="4730" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-202" value="限制环比系数最大值和最小值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="4920" width="150" height="60" as="geometry" />
+          <mxGeometry x="1993" y="4910" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-203" value="&lt;div&gt;sku_area_sequential_coef = sku_area_sequential_coef.withColumn(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &#39;sequential_coef&#39;, func.when(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.col(&#39;sequential_coef&#39;) &amp;gt; MAX_SEQUENTIAL_COEF, func.lit(MAX_SEQUENTIAL_COEF)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ).otherwise(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.when(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.col(&#39;sequential_coef&#39;) &amp;lt; MIN_SEQUENTIAL_COEF, func.lit(MIN_SEQUENTIAL_COEF)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ).otherwise(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.col(&#39;sequential_coef&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1035" y="4960" width="600" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-204" value="依据[sku_id, area_name]计算groupby，对应的环比系数&lt;br&gt;依据[category, area_name]计算groupby 对应的环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1828" y="4860" width="310" height="40" as="geometry" />
+          <mxGeometry x="1490" y="4880" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-205" value="关联环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2060" y="5010" width="150" height="60" as="geometry" />

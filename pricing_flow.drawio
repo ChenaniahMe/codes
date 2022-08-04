@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:10:29.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ac6LGhE5889JAWzFspif" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T13:11:11.668Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="d2WjA-J8gJBtiSn46mnd" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="1442" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1314,7 +1314,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-188" value="要写入的Hive表SEQUENTIAL_COEF_DEFAULT_&#xa;COVER_TYPEdev_mtg_smart_pricing_base_sales&#xa;_price" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=43;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;align=left;gradientColor=none;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="4377" width="300" height="313" as="geometry">
+          <mxGeometry x="2400" y="4377" width="300" height="403" as="geometry">
             <mxRectangle x="1260" y="400" width="330" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1336,14 +1336,23 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-217" value="business_cat3(业务分类三)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
           <mxGeometry y="193" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-214" value="()" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-214" value="area_name(区域名称)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
           <mxGeometry y="223" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-215" value="()" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-215" value="history_cycle_days(历史周期天数)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
           <mxGeometry y="253" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-216" value="()" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
           <mxGeometry y="283" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-218" value="()" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="313" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-219" value="()" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="343" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-220" value="()" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="373" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-193" value="默认兜底类型环比系数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2510.25" y="4340" width="79.5" height="30" as="geometry" />
@@ -1376,7 +1385,7 @@
           <mxGeometry x="1490" y="4880" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-205" value="关联环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="4810" width="150" height="60" as="geometry" />
+          <mxGeometry x="2180" y="4794" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-206" value="环比系数兜底" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2550" y="5007" width="150" height="60" as="geometry" />

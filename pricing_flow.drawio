@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T10:22:06.677Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ab_oQEYquuy8kDZKm9Na" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T10:26:22.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gxDVAcKHPDwKdp4VAgKz" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="2577" dy="3203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1388" dy="2264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1331,7 +1331,7 @@
           <mxGeometry y="120" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-193" value="基准销量、基准价格数据表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2480.5" y="4330" width="119" height="30" as="geometry" />
+          <mxGeometry x="2490.5" y="4330" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-194" value="只处理当前上架商品，&lt;br&gt;提取SKU，区域维度的固有信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1458" y="4520" width="150" height="60" as="geometry" />

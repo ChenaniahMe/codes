@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:29:23.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BYqjYz8EjV1tHxotQdEv" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T13:29:45.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bSDFFHAfis0Z07XWMhWx" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="1298" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="961" dy="1810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1370,7 +1370,7 @@
           <mxGeometry x="1822.5" y="4490" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-195" value="基于特征数据按照窗口期进行拆分" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1530" y="4530" width="150" height="60" as="geometry" />
+          <mxGeometry x="1570" y="4490" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-198" value="周期是传入参数数据&lt;br&gt;1. 近期周期日期开始（当前日期-传入的周期参数天）-近期周期日期结束（当前日期-1天）&lt;br&gt;2. 近一年前日期的下一周期开始日期（一年前日期+1天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期+传入的周期参数天）&lt;br&gt;3. 近一年前日期的近期周期开始日期（一年前日期-传入的周期参数天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期-天）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1681" y="4576" width="430" height="114" as="geometry" />
@@ -1428,7 +1428,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-230" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-195" target="7uFY8SN5ur5jXq0y15jG-194">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-230" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-231" target="7uFY8SN5ur5jXq0y15jG-195">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1345" y="4520" as="sourcePoint" />
             <mxPoint x="1480" y="4643" as="targetPoint" />

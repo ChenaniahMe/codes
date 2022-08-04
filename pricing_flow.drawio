@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:14:09.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iSLt6FVIvtYaJPdYAHLH" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:16:33.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IX0Iro69XHCeVd73wkym" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="902" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1503" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-130" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=center;fontColor=#333333;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2043" y="3532" width="190" height="320" as="geometry" />
+        </mxCell>
         <mxCell id="k1O9Revn7S_Qjva8WgIn-345" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;" parent="1" vertex="1">
           <mxGeometry x="1061" y="2037" width="1660" height="893" as="geometry" />
         </mxCell>
@@ -1064,7 +1067,7 @@
           <mxGeometry x="1440" y="3560" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-97" value="基于弹性过滤" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="3645" width="150" height="60" as="geometry" />
+          <mxGeometry x="1440" y="3662" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-100" value="得到需要的品类" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1440" y="3350" width="150" height="60" as="geometry" />
@@ -1090,7 +1093,7 @@
           <mxGeometry x="1440" y="3760" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-108" value="&lt;div&gt;## 弹性兜底&lt;/div&gt;&lt;div&gt;# 二级弹性兜底&lt;/div&gt;&lt;div&gt;cover_cat2_ec = cover_skus.merge(cat2_ec,how=&#39;left&#39;)&lt;/div&gt;&lt;div&gt;cover_cat2_ec[&#39;ec_type&#39;] = CAT2_COVER&lt;/div&gt;&lt;div&gt;# 二级不存在的使用一级弹性兜底&lt;/div&gt;&lt;div&gt;cover_cat1_ec = cover_cat2_ec[cover_cat2_ec[&#39;ec&#39;].isna()].drop([&#39;ec&#39;,&#39;ecstd&#39;],axis=1).merge(cat1_ec,how=&#39;left&#39;)&lt;/div&gt;&lt;div&gt;cover_cat1_ec[&#39;ec_type&#39;] = CAT1_COVER&lt;/div&gt;&lt;div&gt;# 一级不存在的使用品类弹性兜底&lt;/div&gt;&lt;div&gt;cover_cate_ec = cover_cat1_ec[cover_cat1_ec[&#39;ec&#39;].isna()].drop([&#39;ec&#39;,&#39;ecstd&#39;],axis=1).merge(category_ec,how=&#39;left&#39;)&lt;/div&gt;&lt;div&gt;cover_cate_ec[&#39;ec_type&#39;] = CATEGORY_COVER&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1828" y="3860" width="534" height="210" as="geometry" />
+          <mxGeometry x="1828" y="3875" width="534" height="210" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-109" value="二级弹性兜底" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2061" y="3560" width="150" height="60" as="geometry" />
@@ -1145,7 +1148,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-124" value="&lt;div&gt;cat1_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&lt;/div&gt;&lt;div&gt;cat2_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&lt;/div&gt;&lt;div&gt;category_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="3860" width="310" height="210" as="geometry" />
+          <mxGeometry x="1430" y="3875" width="310" height="210" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-125" value="需要兜底的sku_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2061" y="3430" width="150" height="60" as="geometry" />
@@ -1159,6 +1162,28 @@
             <mxPoint x="1450" y="3600" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1370" y="3380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-128" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-100" target="7uFY8SN5ur5jXq0y15jG-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1391" y="3390" as="sourcePoint" />
+            <mxPoint x="1461" y="3390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.491;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.492;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-97" target="7uFY8SN5ur5jXq0y15jG-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="3720" as="sourcePoint" />
+            <mxPoint x="1525" y="3672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-107" target="7uFY8SN5ur5jXq0y15jG-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1523.8000000000002" y="3732.12" as="sourcePoint" />
+            <mxPoint x="1523.65" y="3767.96" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2000" y="3790" />
+              <mxPoint x="2000" y="3692" />
             </Array>
           </mxGeometry>
         </mxCell>

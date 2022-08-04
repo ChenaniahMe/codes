@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:34:22.451Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mavYZFdgzIW-5-OZIt_h" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T13:37:09.584Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="bvz_vXUXjkFnXrJVsxGc" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="1854" dy="2406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1376,7 +1376,7 @@
           <mxGeometry x="1682.5" y="4590" width="430" height="114" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-199" value="计算环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="4720" width="150" height="60" as="geometry" />
+          <mxGeometry x="2083" y="4720" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-200" value="func.col(&#39;sale_qtty_sum_1yearago_after&#39;) / func.col(&#39;sale_qtty_sum_1yearago_before&#39;) #（对应一年前日期的下一周期开始日期，结束）/（一年前日期的近期周期开始日期，结束）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1370" y="4740" width="430" height="114" as="geometry" />
@@ -1385,7 +1385,7 @@
           <mxGeometry x="1880" y="4720" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-202" value="限制环比系数最大值和最小值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2140" y="4870" width="150" height="60" as="geometry" />
+          <mxGeometry x="2176" y="4970" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-203" value="&lt;div&gt;sku_area_sequential_coef = sku_area_sequential_coef.withColumn(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &#39;sequential_coef&#39;, func.when(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.col(&#39;sequential_coef&#39;) &amp;gt; MAX_SEQUENTIAL_COEF, func.lit(MAX_SEQUENTIAL_COEF)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ).otherwise(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.when(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.col(&#39;sequential_coef&#39;) &amp;lt; MIN_SEQUENTIAL_COEF, func.lit(MIN_SEQUENTIAL_COEF)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ).otherwise(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; func.col(&#39;sequential_coef&#39;)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; )&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1035" y="4960" width="600" height="200" as="geometry" />
@@ -1394,10 +1394,10 @@
           <mxGeometry x="1490" y="4880" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-205" value="关联环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="4794" width="150" height="60" as="geometry" />
+          <mxGeometry x="2176" y="4854" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-206" value="环比系数兜底" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="5007" width="150" height="60" as="geometry" />
+          <mxGeometry x="2176" y="5100" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-207" value="依据[sku_id, area_name]计算groupby，对应的环比系数&lt;br&gt;依据[category, area_name]计算groupby 对应的环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1819" y="4830" width="310" height="40" as="geometry" />
@@ -1409,7 +1409,7 @@
           <mxGeometry x="2550" y="4897" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-226" value="统计&lt;span style=&quot;&quot;&gt;base_sales(基准销量，销量的平均值)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_sales_std(基准销量标准差)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_price(基准价格，销量乘以价格除以销量)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;moving_pin_days_1cycle(近一周期动销天数，日期的次数)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="2016" y="4475" width="310" height="70" as="geometry" />
+          <mxGeometry x="2060" y="4475" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-227" value="智能定价基础表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1091.5" y="4694" width="109" height="30" as="geometry" />
@@ -1467,6 +1467,37 @@
               <mxPoint x="1840" y="4720" />
               <mxPoint x="1840" y="4750" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-235" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-194" target="7uFY8SN5ur5jXq0y15jG-205">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="4530" as="sourcePoint" />
+            <mxPoint x="1832.5" y="4530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1898" y="4570" />
+              <mxPoint x="2210" y="4570" />
+              <mxPoint x="2210" y="4702" />
+              <mxPoint x="2346" y="4702" />
+              <mxPoint x="2346" y="4884" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-236" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-199">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="4560" as="sourcePoint" />
+            <mxPoint x="2250" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-237" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-201">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2168" y="4790" as="sourcePoint" />
+            <mxPoint x="2080" y="4750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-238" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-205" target="7uFY8SN5ur5jXq0y15jG-202">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2168" y="4790" as="sourcePoint" />
+            <mxPoint x="2260" y="4860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

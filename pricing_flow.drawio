@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:03:05.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="duos6eKVSUYl9lpcGSJS" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:04:39.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6qe0XSbhqs84WY3CtQ7D" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="1388" dy="2264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1503" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1096,7 +1096,7 @@
           <mxGeometry x="1440" y="3760" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-108" value="&lt;div&gt;cat1_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;ec&#39;, &#39;ecstd&#39;]] #一级弹性&lt;/div&gt;&lt;div&gt;cat2_ec = skus_ec.groupby(&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;, &#39;ec&#39;, &#39;ecstd&#39;]] #二级弹性&lt;/div&gt;&lt;div&gt;category_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&amp;nbsp; &amp;nbsp;#品类弹性&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1889" y="3860" width="310" height="210" as="geometry" />
+          <mxGeometry x="2016" y="3900" width="310" height="210" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-109" value="二级弹性兜底" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1440" y="3855" width="150" height="60" as="geometry" />
@@ -1108,7 +1108,7 @@
           <mxGeometry x="1440" y="4054" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-112" value="弹性是已经算出来的，使用已经非异常sku_id，兜底sku_id的弹性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="4011" width="310" height="80" as="geometry" />
+          <mxGeometry x="1070" y="4030" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-36" target="7uFY8SN5ur5jXq0y15jG-96">
           <mxGeometry relative="1" as="geometry">
@@ -1149,6 +1149,9 @@
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-111" target="7uFY8SN5ur5jXq0y15jG-111">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-124" value="&lt;div&gt;cat1_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&lt;/div&gt;&lt;div&gt;cat2_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;business_cat1&#39;, &#39;business_cat2&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&lt;/div&gt;&lt;div&gt;category_ec = skus_ec.groupby(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;]).median().reset_index()[&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; [&#39;category&#39;, &#39;ec&#39;, &#39;ecstd&#39;]]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="3830" width="310" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

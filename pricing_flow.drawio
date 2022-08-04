@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T11:20:33.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9XIqWTz-lWrTmLOZvYKN" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T11:24:19.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xTX7aYgUyPTgk-6qJEhH" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="752" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="582" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1339,7 +1339,7 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-195" value="基于特征数据按照窗口期进行拆分" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1458" y="4630" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-198" value="周期是传入参数数据&lt;br&gt;1. 近期周期日期开始（当前日期-传入的周期参数天）-近期周期日期结束（当前日期-1天）&lt;br&gt;2. 近一年前日期的下一周期开始日期（一年前日期+1天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期+传入的周期参数天）&lt;br&gt;3.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-198" value="周期是传入参数数据&lt;br&gt;1. 近期周期日期开始（当前日期-传入的周期参数天）-近期周期日期结束（当前日期-1天）&lt;br&gt;2. 近一年前日期的下一周期开始日期（一年前日期+1天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期+传入的周期参数天）&lt;br&gt;3. 近一年前日期的近期周期开始日期（一年前日期-传入的周期参数天）&lt;br&gt;近一年前日期的下一周期结束日期（一年前日期+传入的周期参数天）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1682.5" y="4596" width="430" height="114" as="geometry" />
         </mxCell>
       </root>

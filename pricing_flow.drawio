@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:13:02.438Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4IOIibpW1Ic7V9pNLLvt" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:13:20.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LDEh2KUONcS8cBUQ9p-l" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="ç¬¬ 1 é¡µ">
     <mxGraphModel dx="1289" dy="2186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1150,7 +1150,7 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-125" value="éœ€è¦å…œåº•çš„sku_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2061" y="3430" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-126" value="cat1_ec, cat2_1_ecstd, cat2_ec, cat2_ecstd ä¸ºä¸€í ¼í¾§åˆ†ç±»çš„ä¸­ä½æ•°" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-126" value="cat1_ec, cat21_ecstd, cat2_ec, cat2_ecstd ä¸ºä¸€í ¼í¾§åˆ†ç±»çš„ä¸­ä½æ•°" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="2362" y="3717" width="290" height="114" as="geometry" />
         </mxCell>
       </root>

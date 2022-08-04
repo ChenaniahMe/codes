@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:17:59.767Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V43WJw_7WE1kAPCMHfQw" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T13:19:38.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y3w8fWDLdSw2KmeErVyJ" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="1298" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="1835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1408,8 +1408,8 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-209" value="修正基准销量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2550" y="4897" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-226" value="统计&lt;span style=&quot;&quot;&gt;base_sales(基准销量)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_sales_std(基准销量标准差)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_price(基准价格)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;moving_pin_days_1cycle(近一周期动销天数)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="4480" width="310" height="40" as="geometry" />
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-226" value="统计&lt;span style=&quot;&quot;&gt;base_sales(基准销量，销量的平均值)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_sales_std(基准销量标准差)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_price(基准价格，销量乘以价格除以销量)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;moving_pin_days_1cycle(近一周期动销天数，日期的次数)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="4480" width="310" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T06:00:27.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kyhVuOmI17FlSH2piBcq" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T08:45:21.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KKq-bAWiEwiJ8a7HwQaF" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="1503" dy="2356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1055,7 +1055,7 @@
           <mxGeometry x="1580" y="3190" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-93" value="1. 固定的GATEGORY_LIST=[&#39;家电清洗&#39;, ‘生活洗衣’, &#39;家电品类&#39;]&lt;br&gt;2. 统一指定的区域名 ‘全国’&lt;br&gt;3. 弹性上限 EC_HIGH=0, 弹性下限EC_LOW=-10&lt;br&gt;4. 样本下限SAMPLES_LOW=25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="3170" width="430" height="114" as="geometry" />
+          <mxGeometry x="1080" y="4006" width="430" height="114" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-93" target="7uFY8SN5ur5jXq0y15jG-93">
           <mxGeometry relative="1" as="geometry" />
@@ -1080,7 +1080,7 @@
         <mxCell id="7uFY8SN5ur5jXq0y15jG-102" value="sku_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1650" y="3350" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7uFY8SN5ur5jXq0y15jG-103" value="concat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-103" value="concat去重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="1828" y="3480" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-104" value="merge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
@@ -1109,6 +1109,28 @@
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-112" value="弹性是已经算出来的，使用已经非异常sku_id，兜底sku_id的弹性" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1889" y="4154" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-36" target="7uFY8SN5ur5jXq0y15jG-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1735" y="3420" as="sourcePoint" />
+            <mxPoint x="1735" y="3609.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1381" y="3725" as="sourcePoint" />
+            <mxPoint x="1515" y="3640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-119" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1525" y="3630" as="sourcePoint" />
+            <mxPoint x="1650" y="3630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1630" y="3675" />
+              <mxPoint x="1630" y="3630" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

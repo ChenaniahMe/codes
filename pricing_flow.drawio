@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:51:24.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_Z1k-dVC-1BCi3ULeiJc" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:58:19.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hi48Dt48YNsgVqrXsRnT" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
     <mxGraphModel dx="1289" dy="2186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1312,6 +1312,26 @@
             <mxPoint x="1480" y="4571" as="sourcePoint" />
             <mxPoint x="1540" y="4571" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-188" value="要写入的Hive表TABLE_SMART_PRICING_BASE_&#xa;FEATUREdev.dev_mtg_smart_pricing_base_feature" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;align=left;gradientColor=none;spacingLeft=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="4370" width="300" height="150" as="geometry">
+            <mxRectangle x="1260" y="400" width="330" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-189" value="sku_id(sku编码)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-190" value="area_name(区域名称)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-191" value="trans_price(成交价)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-192" value="sale_qtty(销售数量)" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=0;startSize=30;" vertex="1" parent="7uFY8SN5ur5jXq0y15jG-188">
+          <mxGeometry y="120" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-193" value="基准销量、基准价格数据表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2501" y="4330" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

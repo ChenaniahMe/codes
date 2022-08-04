@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:46:00.798Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AsNtCdE7ot0xYkc7dlZW" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T13:48:06.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ezuOnWGUHOm0208xVBmB" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="1129" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1397,13 +1397,13 @@
           <mxGeometry x="2176" y="5100" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-208" value="使用基准销量乘环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="2472" y="5110" width="164" height="40" as="geometry" />
+          <mxGeometry x="2464" y="5110" width="164" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-209" value="修正基准销量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="2472" y="4970" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-226" value="统计&lt;span style=&quot;&quot;&gt;base_sales(基准销量，销量的平均值)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_sales_std(基准销量标准差)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;base_price(基准价格，销量乘以价格除以销量)，&lt;/span&gt;&lt;span style=&quot;&quot;&gt;moving_pin_days_1cycle(近一周期动销天数，日期的次数)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="4475" width="310" height="70" as="geometry" />
+          <mxGeometry x="2060" y="4485" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-227" value="智能定价基础表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1091.5" y="4694" width="109" height="30" as="geometry" />
@@ -1480,6 +1480,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1930" y="4560" as="sourcePoint" />
             <mxPoint x="2250" y="4850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2158" y="4820" />
+              <mxPoint x="2250" y="4820" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-237" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-201">
@@ -1510,6 +1514,34 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2550" y="4970" as="sourcePoint" />
             <mxPoint x="2482" y="5010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-243" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-194" target="7uFY8SN5ur5jXq0y15jG-226">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1620" y="4409" as="sourcePoint" />
+            <mxPoint x="1690.9999999999995" y="4409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-244" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-198" target="7uFY8SN5ur5jXq0y15jG-201">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1982.5" y="4530" as="sourcePoint" />
+            <mxPoint x="2070" y="4530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-245" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=0.998;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-200" target="7uFY8SN5ur5jXq0y15jG-199">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1907.5" y="4714" as="sourcePoint" />
+            <mxPoint x="1965" y="4730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1905" y="4820" />
+              <mxPoint x="2150" y="4820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-246" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="7uFY8SN5ur5jXq0y15jG-208" target="7uFY8SN5ur5jXq0y15jG-209">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1915" y="4900" as="sourcePoint" />
+            <mxPoint x="2160.0499999999997" y="4789.88" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

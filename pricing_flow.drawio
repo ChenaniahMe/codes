@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T12:54:11.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="d4OpJxCKiIcwbT4TPEwk" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T12:55:40.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RLW3HTgtSj2zjjUwPTGo" version="20.2.2" type="github">
   <diagram id="rA9bU17HEviZACzT6Bla" name="第 1 页">
-    <mxGraphModel dx="2360" dy="2744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1442" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1364,10 +1364,16 @@
           <mxGeometry x="2310" y="4603" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-206" value="环比系数兜底" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2531" y="4590" width="150" height="60" as="geometry" />
+          <mxGeometry x="2520" y="4800" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7uFY8SN5ur5jXq0y15jG-207" value="依据[sku_id, area_name]计算groupby，对应的环比系数&lt;br&gt;依据[category, area_name]计算groupby 对应的环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
           <mxGeometry x="1819" y="4830" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-208" value="使用基准销量修正环比系数" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;arcSize=5;" vertex="1" parent="1">
+          <mxGeometry x="2376" y="4920" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7uFY8SN5ur5jXq0y15jG-209" value="修正基准销量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="4690" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T01:34:10.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6GUgvhu-wEACMO4TX77H" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T01:34:18.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="V0zgjNB3mX7cyWAfrGbk" version="20.4.1" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
     <mxGraphModel dx="1530" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -593,7 +593,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-132" value="The proposed method for&amp;nbsp;&lt;br&gt;&lt;br&gt;1. 每一层之后，进行状态之间的信息传递，量子纠缠。&lt;br&gt;3. 将每一层的量子纠缠的结果与原始图一起，构成量子量子纠缠图，最终进行网络图信息的学习。&lt;br&gt;2. 使用多级分类函数，最后一级与前一级使用可学习权重进行相连。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="214.5" y="1320" width="931" height="160" as="geometry" />
+          <mxGeometry x="212" y="1320" width="931" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-133" value="Flexibly Graph Attention Neural Networks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="580" width="950" height="60" as="geometry" />

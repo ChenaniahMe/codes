@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T10:40:36.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_adBo5nlwOHWFo-Dbd7A" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T10:40:52.405Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BmTK4xQ-uz3-MPcnMtNu" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
     <mxGraphModel dx="2576" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -512,7 +512,7 @@
           <mxGeometry x="170" y="1700" width="931" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-133" value="Flexibly Graph Attention Neural Networks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="580" width="950" height="60" as="geometry" />
+          <mxGeometry x="210" y="600" width="1070" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-136" value="Training set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="791" width="70" height="30" as="geometry" />

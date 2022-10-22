@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T09:41:14.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cXPYDcNaw6kPsz04x0g6" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T09:47:51.380Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1UVDUzWyurfWtOYoIKIJ" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
-    <mxGraphModel dx="2357" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1847" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -613,7 +613,7 @@
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-140" value="Test Set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1090" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络样本。&lt;br&gt;基于量子纠缠的思想，我们重新定义神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络仅仅当做特征提取器，最终通过一个或若干个损失函数获取单个样本在全部样本中的特征。&lt;br&gt;基于量子纠缠的思想，我们重新定义神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1580" width="931" height="160" as="geometry" />
         </mxCell>
       </root>

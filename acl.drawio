@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T10:21:16.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YuXmAxvObMUJlTd4wJbZ" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T10:22:00.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Tufk5dEKQVI1dzF2rrqF" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
     <mxGraphModel dx="2187" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -597,9 +597,6 @@
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-133" value="Flexibly Graph Attention Neural Networks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="580" width="950" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uUBAp2DgtA_l8BqaeNeY-135" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
-          <mxGeometry x="90" y="1191" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-136" value="Training set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="791" width="70" height="30" as="geometry" />

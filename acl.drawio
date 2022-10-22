@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T10:36:25.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="vgSYuYURopYTQpEQ5Y1T" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T10:37:51.509Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="84V1lMLrytOIrpBTYTMH" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
-    <mxGraphModel dx="2459" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2576" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,10 +530,10 @@
           <mxGeometry x="170" y="1490" width="931" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-2" value="通过Softmax得到样本的类别建立量子纠缠图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="357" y="1071" width="112.5" height="30" as="geometry" />
+          <mxGeometry x="290" y="1071" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-3" value="通过Softmax得到样本的类别建立量子纠缠图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890.5" y="1073" width="112.5" height="30" as="geometry" />
+          <mxGeometry x="940" y="1073" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-yCArFwvEZyqS_r8EFs1-4" target="-yCArFwvEZyqS_r8EFs1-1">
           <mxGeometry relative="1" as="geometry" />
@@ -654,6 +654,27 @@
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-59" value="Softamx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="777" y="1120.5" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.253;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-yCArFwvEZyqS_r8EFs1-2" target="-yCArFwvEZyqS_r8EFs1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uUBAp2DgtA_l8BqaeNeY-5" target="-yCArFwvEZyqS_r8EFs1-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1180" as="sourcePoint" />
+            <mxPoint x="670" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-yCArFwvEZyqS_r8EFs1-58" target="-yCArFwvEZyqS_r8EFs1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.75" y="1060" as="sourcePoint" />
+            <mxPoint x="484" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-65" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="uUBAp2DgtA_l8BqaeNeY-44" target="-yCArFwvEZyqS_r8EFs1-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="1196" as="sourcePoint" />
+            <mxPoint x="563" y="1205" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

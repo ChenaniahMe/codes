@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T10:28:29.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YaDLFxp6c2gK_pGgZQeG" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T10:29:27.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YZGgacK6EywNwgajSlT9" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
     <mxGraphModel dx="1806" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -610,7 +610,7 @@
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-140" value="Test Set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1090" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络仅仅当做特征提取器，最终通过一个或若干个损失函数获取单个样本在全部样本中的特征。假设样本分为四类A，B，C，D，我们已知类别为A，B，C的样本，并且具有很高的置信度，那么我们同时知道了类别为D的样本。&lt;br&gt;基于量子纠缠的思想，我们重新定义神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络仅仅当做特征提取器，最终通过一个或若干个损失函数获取单个样本在全部样本中的特征。假设样本分为四类A，B，C，D，我们已知类别为A，B，C的样本，并且具有很高的置信度，那么我们同时知道了类别为D的样本。&lt;br&gt;基于量子纠缠的思想，我们重新定义图神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1580" width="931" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-2" value="通过Softmax得到样本的类别建立量子纠缠图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">

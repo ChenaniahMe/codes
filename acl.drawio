@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T10:22:00.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Tufk5dEKQVI1dzF2rrqF" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T10:28:14.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Z_gUY74qr3I_IJ88SN_j" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
-    <mxGraphModel dx="2187" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,7 +446,7 @@
           <mxGeometry x="1017.5" y="697" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-100" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="447.5" y="1124" width="161" height="131" as="geometry" />
+          <mxGeometry x="447.5" y="1129" width="161" height="131" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-101" value="T" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="uUBAp2DgtA_l8BqaeNeY-100" vertex="1">
           <mxGeometry y="43.666666666666664" width="30" height="30" as="geometry" />
@@ -491,7 +491,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-110" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="219" y="1123" width="161" height="120" as="geometry" />
+          <mxGeometry x="219" y="1128" width="161" height="120" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-111" value="T" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="uUBAp2DgtA_l8BqaeNeY-110" vertex="1">
           <mxGeometry y="40" width="30" height="30" as="geometry" />
@@ -536,7 +536,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-120" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="730" y="1124" width="161" height="120" as="geometry" />
+          <mxGeometry x="730" y="1129" width="161" height="120" as="geometry" />
         </mxCell>
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-121" value="T" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="uUBAp2DgtA_l8BqaeNeY-120" vertex="1">
           <mxGeometry y="40" width="30" height="30" as="geometry" />
@@ -610,7 +610,7 @@
         <mxCell id="uUBAp2DgtA_l8BqaeNeY-140" value="Test Set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-10" y="1090" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络仅仅当做特征提取器，最终通过一个或若干个损失函数获取单个样本在全部样本中的特征。假设我们已知A样本的类别，并且具有很高的置信度，那么这种类别的样本不再被考虑到q网络中。&lt;br&gt;基于量子纠缠的思想，我们重新定义神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络仅仅当做特征提取器，最终通过一个或若干个损失函数获取单个样本在全部样本中的特征。假设样本分为四类A，B，C，D，我们已知类别为A，B，C的样本，并且具有很高的置信度，那么我们同时知道了类别为D的样本。&lt;br&gt;基于量子纠缠的思想，我们重新定义神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1580" width="931" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-2" value="通过Softmax得到样本的类别建立量子纠缠图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">

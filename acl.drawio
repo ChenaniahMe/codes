@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T10:30:26.640Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JwGEVwYzYz2QwPiShte8" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T10:30:35.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GgGRFsRi8F7GgcyXtk9-" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
     <mxGraphModel dx="2357" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -619,8 +619,14 @@
         <mxCell id="-yCArFwvEZyqS_r8EFs1-3" value="通过Softmax得到样本的类别建立量子纠缠图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890.5" y="1073" width="112.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-yCArFwvEZyqS_r8EFs1-4" target="-yCArFwvEZyqS_r8EFs1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-4" value="提出的目的" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1490" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-yCArFwvEZyqS_r8EFs1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-yCArFwvEZyqS_r8EFs1-5" target="uUBAp2DgtA_l8BqaeNeY-132">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-5" value="提取的dea" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1700" width="120" height="160" as="geometry" />

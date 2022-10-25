@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T14:20:26.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="_q6BbyKsvUB1SvaKdgcX" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T13:36:35.342Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="n0_k5RztI0yvlj9u_ovP" version="20.5.0" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
-    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2867" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,7 +517,7 @@
         <mxCell id="-yCArFwvEZyqS_r8EFs1-1" value="在原始的研究算法中，神经网络仅仅当做特征提取器，最终通过一个或若干个损失函数获取单个样本在全部样本中的特征。假设样本分为四类A，B，C，D，我们已知类别为A，B，C的样本，并且具有很高的置信度，那么我们同时知道了类别为D的样本。&lt;br&gt;基于量子纠缠的思想，我们重新定义图神经网络的内部计算机制。当单个样本的状态发生变化时，其它样本的状态及时发生变化。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="1360" width="931" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Ich4NGvivZwvhX958-lQ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-yCArFwvEZyqS_r8EFs1-2" target="-yCArFwvEZyqS_r8EFs1-58">
+        <mxCell id="Ich4NGvivZwvhX958-lQ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-yCArFwvEZyqS_r8EFs1-2" target="-yCArFwvEZyqS_r8EFs1-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-yCArFwvEZyqS_r8EFs1-2" value="通过Softmax得到样本的类别建立量子纠缠图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -712,7 +712,7 @@
         <mxCell id="-yCArFwvEZyqS_r8EFs1-74" value="Graph" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="1170" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ich4NGvivZwvhX958-lQ-2" value="节点空间位置发生变化时。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ich4NGvivZwvhX958-lQ-2" value="节点空间位置发生变化时。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="1860" width="931" height="160" as="geometry" />
         </mxCell>
       </root>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T13:41:11.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="A6QYCNjxvAAGU83tmtzw" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T14:04:46.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NA9rVTeERoB-vsFIeY9O" version="20.5.3" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
-    <mxGraphModel dx="2867" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2332" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -715,7 +715,7 @@
         <mxCell id="Ich4NGvivZwvhX958-lQ-2" value="节点空间位置发生变化时。" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="1754" width="931" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="0n7MItqGZu1MxwfFIT9N-1" value="双曲线图神经网络" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0n7MItqGZu1MxwfFIT9N-1" value="双曲线图神经网络" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-11" y="1960" width="931" height="160" as="geometry" />
         </mxCell>
       </root>

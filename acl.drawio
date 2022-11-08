@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T14:19:33.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WSuPJdWz8o2YJyiHoSLy" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T14:19:43.399Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-OitKppn5yHsgcdH3KjY" version="20.5.3" type="github">
   <diagram id="ObROusXgH3hBW1gGpqjg" name="第 1 页">
     <mxGraphModel dx="2332" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -718,7 +718,7 @@
         <mxCell id="0n7MItqGZu1MxwfFIT9N-1" value="双曲线图神经网络" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-11" y="1960" width="931" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="vif6zl7ddp9YcZyfLj6h-1" value="使用生成模型，感知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vif6zl7ddp9YcZyfLj6h-1" value="使用生成模型，生成相关数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="1470" width="520" height="160" as="geometry" />
         </mxCell>
       </root>

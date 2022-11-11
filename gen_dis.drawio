@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T01:34:51.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pdtdt6ls2gE_Yi2Y4GV0" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T01:34:59.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nW2Qo7T9WQmoXPsbqbPN" version="20.5.3" type="github">
   <diagram id="PNKti_Y0tKLtourvRPgs" name="第 1 页">
     <mxGraphModel dx="1279" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-13" value="噪声数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="406" y="324" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qGsaOa4AsfYUASUG0aQg-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="471" y="282.5" as="sourcePoint" />
+            <mxPoint x="540" y="282.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

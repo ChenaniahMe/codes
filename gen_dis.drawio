@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T01:34:09.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rx6kT-0o-Bwyw8rJcyzu" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T01:34:51.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pdtdt6ls2gE_Yi2Y4GV0" version="20.5.3" type="github">
   <diagram id="PNKti_Y0tKLtourvRPgs" name="第 1 页">
     <mxGraphModel dx="1279" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,12 +8,12 @@
           <mxGeometry x="221" y="253" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-2" value="判别器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="401" y="253" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="252" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qGsaOa4AsfYUASUG0aQg-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGsaOa4AsfYUASUG0aQg-1" target="qGsaOa4AsfYUASUG0aQg-2">
+        <mxCell id="qGsaOa4AsfYUASUG0aQg-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGsaOa4AsfYUASUG0aQg-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="401" y="373" as="sourcePoint" />
-            <mxPoint x="451" y="323" as="targetPoint" />
+            <mxPoint x="410" y="283" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-5" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -23,15 +23,15 @@
           <mxGeometry x="80" y="326" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-7" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="431" y="140" width="60" height="60" as="geometry" />
+          <mxGeometry x="570" y="139" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-8" value="真实数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="155" width="60" height="30" as="geometry" />
+          <mxGeometry x="639" y="154" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGsaOa4AsfYUASUG0aQg-7" target="qGsaOa4AsfYUASUG0aQg-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="351" y="293" as="sourcePoint" />
-            <mxPoint x="411" y="293" as="targetPoint" />
+            <mxPoint x="490" y="292" as="sourcePoint" />
+            <mxPoint x="550" y="292" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qGsaOa4AsfYUASUG0aQg-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qGsaOa4AsfYUASUG0aQg-5">
@@ -39,6 +39,12 @@
             <mxPoint x="471" y="210" as="sourcePoint" />
             <mxPoint x="220" y="282" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qGsaOa4AsfYUASUG0aQg-12" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="409" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGsaOa4AsfYUASUG0aQg-13" value="噪声数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="324" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
